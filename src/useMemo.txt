@@ -1,0 +1,7 @@
+useMemo:
+  it returns the memoized value which can be stored in the variable
+  
+
+  //it is used in the application performance optimizations
+
+
