@@ -19,10 +19,11 @@ const reducer = (state, action) => {
       return [...state, action.payload];
     }
     case "DELETE_USER": {
-      const newState = state.todolist.filter(
+      let newState = state.todolist.filter(
         (list, idx) => idx !== action.payload
       );
       console.log(newState);
+      return newState;
     }
     default:
       return state;
